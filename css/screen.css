@@ -54,6 +54,7 @@
         src:url("../fonts/DroidSerif-BoldItalic-webfont.woff") format("woff2") ;
     }
 
+
 /*
     Elements: Page
     ---
@@ -122,6 +123,12 @@ h2 {
     font-size: 23px;
     line-height: 32px;
     margin: 0 0 24px;
+}
+
+/*Wordt gebruikt wanneer er een element voor de H2 komt = een adjacent sibling selector en universal selector */
+/*BELANGERIJK WAAR DE PLAATS IS */
+*+h2{
+    margin-top: 48px;
 }
 
 h3 {
